@@ -19,7 +19,7 @@ export default function HomePage({ onNavigate }: HomePageProps) {
             <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl mb-6 md:mb-8" style={{ fontFamily: 'Poppins, sans-serif', fontWeight: 700, lineHeight: '1.2' }}>
               Empowering Lives Through Skills Development
             </h1>
-            <button 
+            <button
               onClick={() => onNavigate('courses')}
               className="border-2 border-black px-6 md:px-8 py-2.5 md:py-3 rounded-full hover:bg-black hover:text-white transition-colors text-sm md:text-base"
               style={{ fontFamily: 'Poppins, sans-serif', fontWeight: 600 }}
@@ -50,6 +50,21 @@ export default function HomePage({ onNavigate }: HomePageProps) {
           </div>
         </div>
       </section>
+
+      {/* 🎥 How-to-Use Video Section */}
+      <div className="mt-16 text-center">
+        <h2
+          className="text-2xl sm:text-3xl md:text-4xl mb-6 text-gray-800"
+          style={{ fontFamily: "Poppins, sans-serif", fontWeight: 700 }}
+        >
+          How to Use Our Platform
+        </h2>
+        <div className="flex justify-center">
+          <div className="w-full max-w-3xl aspect-video border-4 border-gray-200 rounded-xl overflow-hidden shadow-lg">
+            <iframe width="770" height="315" src="src/assets/Code3.mp4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+          </div>
+        </div>
+      </div>
 
       {/* Success Stories */}
       <section className="bg-gray-50 py-12 md:py-16 lg:py-24">
@@ -125,14 +140,14 @@ export default function HomePage({ onNavigate }: HomePageProps) {
             Join hundreds of learners who have already transformed their lives through our comprehensive training programs.
           </p>
           <div className="flex gap-6 justify-center">
-            <button 
+            <button
               onClick={() => onNavigate('courses')}
               className="bg-gradient-to-r from-blue-500 to-purple-600 text-white px-10 py-4 rounded-full text-lg hover:shadow-xl transition-shadow"
               style={{ fontFamily: 'Poppins, sans-serif', fontWeight: 600 }}
             >
               Browse Courses
             </button>
-            <button 
+            <button
               onClick={() => onNavigate('contact')}
               className="border-2 border-black text-black px-10 py-4 rounded-full text-lg hover:bg-black hover:text-white transition-colors"
               style={{ fontFamily: 'Poppins, sans-serif', fontWeight: 600 }}

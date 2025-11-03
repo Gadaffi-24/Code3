@@ -106,13 +106,13 @@ export default function Footer({ onNavigate }: FooterProps) {
                     <div>
                         <h3 className="text-lg mb-7 leading-[28px]" style={{ fontFamily: 'Poppins, sans-serif', fontWeight: 600 }}>Follow Us</h3>
                         <div className="flex gap-4">
-                            <a href="https://www.facebook.com/" className="bg-blue-500 w-12 h-12 rounded-full flex items-center justify-center hover:bg-blue-600 transition-colors">
+                            <a href="facebook.html" target="_blank" className="bg-blue-500 w-12 h-12 rounded-full flex items-center justify-center hover:bg-blue-600 transition-colors">
                                 <Facebook size={16} />
                             </a>
-                            <a href="https://www.instagram.com/" className="bg-pink-500 w-12 h-12 rounded-full flex items-center justify-center hover:bg-pink-600 transition-colors">
+                            <a href="insta.html" target="_blank" className="bg-pink-500 w-12 h-12 rounded-full flex items-center justify-center hover:bg-pink-600 transition-colors">
                                 <Instagram size={16} />
                             </a>
-                            <a href="https://www.linkedin.com/" className="bg-violet-500 w-12 h-12 rounded-full flex items-center justify-center hover:bg-violet-600 transition-colors">
+                            <a href="linkedIn.html" target="_blank" className="bg-violet-500 w-12 h-12 rounded-full flex items-center justify-center hover:bg-violet-600 transition-colors">
                                 <Linkedin size={16} />
                             </a>
                         </div>

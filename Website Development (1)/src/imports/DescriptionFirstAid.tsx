@@ -48,7 +48,7 @@ function Div() {
     <div className="absolute bg-white h-[502px] left-[893px] rounded-[16px] top-[640px] w-[443px]" data-name="div">
       <div aria-hidden="true" className="absolute border-0 border-gray-200 border-solid inset-0 pointer-events-none rounded-[16px] shadow-[0px_4px_6px_0px_rgba(0,0,0,0.1),0px_10px_15px_0px_rgba(0,0,0,0.1)]" />
       <p className="absolute font-['Montserrat:Bold',_sans-serif] font-bold h-[33px] leading-[normal] left-[47px] text-[32px] text-gray-800 top-[49px] w-[243px]">Course Details</p>
-      <p className="absolute font-['Montserrat:Regular',_sans-serif] font-normal h-[23px] leading-[normal] left-[76px] text-[20px] text-gray-600 top-[192px] w-[173px]">FOrmat: Contact</p>
+      <p className="absolute font-['Montserrat:Regular',_sans-serif] font-normal h-[23px] leading-[normal] left-[76px] text-[20px] text-gray-600 top-[192px] w-[173px]">Format: Contact</p>
       <p className="absolute font-['Montserrat:Regular',_sans-serif] font-normal h-[24px] leading-[normal] left-[76px] text-[20px] text-gray-600 top-[274px] w-[214px]">Price: R1 500,00</p>
       <p className="absolute font-['Montserrat:Regular',_sans-serif] font-normal h-[23px] leading-[normal] left-[76px] text-[20px] text-gray-600 top-[232px] w-[213px]">Instructor: Mr Brown</p>
       <p className="absolute font-['Montserrat:Regular',_sans-serif] font-normal h-[24px] leading-[normal] left-[76px] text-[20px] text-gray-600 top-[149px] w-[200px]">Duration: 6 Months</p>

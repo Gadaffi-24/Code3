@@ -10,7 +10,7 @@ export default function AboutPage() {
           Our Story
         </h1>
         <p className="text-xl text-center text-black max-w-3xl mx-auto mb-16 leading-relaxed">
-          Founded by Precious Radebe in 2025, our mission stems from a personal journey of empowerment and the belief that everyone deserves access to quality education and skills development.
+          Founded by Precious Radebe in 2022, our mission stems from a personal journey of empowerment and the belief that everyone deserves access to quality education and skills development.
         </p>
 
         <div className="grid grid-cols-2 gap-12 mb-16">

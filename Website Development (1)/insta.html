@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Empowering the Nation - Instagram</title>
+    <style>
+        body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; background-color: #fafafa; margin: 0; padding: 20px; }
+        .profile-container { max-width: 935px; margin: 0 auto; background-color: white; border: 1px solid #dbdbdb; padding: 20px; }
+        .header { display: flex; align-items: center; padding-bottom: 44px; border-bottom: 1px solid #dbdbdb; }
+        /* Logo Integration */
+        .profile-pic { width: 150px; height: 150px; border-radius: 50%; margin-right: 100px; display: flex; justify-content: center; align-items: center; overflow: hidden; border: 2px solid #3897f0; }
+        .profile-pic img { width: 100%; height: 100%; object-fit: cover; }
+
+        .profile-info h1 { font-size: 28px; font-weight: 300; margin: 0; }
+        .profile-info p { margin: 5px 0 10px 0; font-size: 16px; line-height: 1.5; }
+        .bio-stats { display: flex; margin: 10px 0; font-size: 16px; }
+        .bio-stats span { margin-right: 40px; }
+        .bio-stats strong { font-weight: 600; }
+        
+        /* Post Grid & Responsiveness */
+        .post-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; margin-top: 44px; }
+        .post-item { width: 100%; padding-bottom: 100%; background-color: #eee; overflow: hidden; position: relative; }
+        .post-item img { width: 100%; height: 100%; object-fit: cover; position: absolute; top: 0; left: 0; }
+        .post-item::before { content: attr(data-content); position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); color: #666; font-size: 14px; text-align: center; max-width: 90%; z-index: 1; }
+
+        @media (max-width: 768px) {
+            .header { flex-direction: column; text-align: center; }
+            .profile-pic { margin-right: 0; margin-bottom: 20px; }
+            .profile-info { padding-left: 0; }
+            .bio-stats { justify-content: center; }
+            .post-grid { grid-template-columns: repeat(2, 1fr); gap: 10px; }
+        }
+    </style>
+</head>
+<body>
+    <div class="profile-container">
+        <div class="header">
+            <div class="profile-pic">
+                <img src="src/assets/6680de06a58a41a06e5916a38f070f0d70a82338.png" alt="Empowering the Nation Logo">
+            </div>
+            <div class="profile-info">
+                <h1>empoweringthenation_za</h1>
+                <div class="bio-stats">
+                    <span><strong>504</strong> posts</span>
+                    <span><strong>12,524</strong> followers</span>
+                    <span><strong>135</strong> following</span>
+                </div>
+                <p>
+                    <strong>Empowering the Nation</strong> | Skills Development & Training 🇿🇦
+                </p>
+                <p>
+                    Boosting earning potential for gardeners & domestic workers in SA. Join a course: First Aid, Sewing, Cooking & more!
+                    <br>
+                    <a href="YOUR_WEBSITE_URL_HERE" target="_blank" rel="noopener noreferrer" style="color:#00376b; text-decoration:none; font-weight:600;">🔗 Link in Bio: Explore Courses & Get a Quote</a>
+                </p>
+            </div>
+        </div>
+
+        <div class="post-grid">
+            <div class="post-item">
+                <img src="src/assets/febc1b8992dacd19639eaa6c744185e311f83313.png" alt="Sewing Course Success">
+            </div>
+            <div class="post-item">
+                <img src="src/assets/dbee36527e2f9663b37b0caf15e95c86bb17c710.png" alt="Landscaping Course">
+            </div>
+            <div class="post-item">
+                <img src="src/assets/562ec2ec5c1bdf373cdbf960686dff23464c5c06.png" alt="First Aid Training">
+            </div>
+            <div class="post-item">
+                <img src="src/assets/247994863b8471178dc4ea890efc120946e98219.png" alt="Founder Portrait">
+            </div>
+            <div class="post-item">
+                <img src="src/assets/436ade954113d52931f926183df1ca060f3f7217.png" alt="Cooking Course">
+            </div>
+            <div class="post-item">
+                <img src="src/assets/discount.png" alt="Discount Structure">
+            </div>
+        </div>
+    </div>
+</body>
+</html>
