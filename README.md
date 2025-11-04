@@ -1,6 +1,11 @@
 # Code3
   # Website Development
 
+#Team Members
+1.Dalian M
+2.Liberty K
+3.Mokete M
+
    The figma prototype project is available at https://www.figma.com/design/HrKFSBUlMquK0ePkZxRIOk/Code-3?node-id=0-1&t=DnXnyvt0KJ7QKMiz-1
 
   ## Running the code
