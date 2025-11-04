@@ -4,6 +4,8 @@
   This is a code bundle for Website Development. The original project is available at https://www.figma.com/design/v6ZSThNqeZRDbFsOWkpJdZ/Website-Development.
 
   ## Running the code
+  
+  Run `cd "Website Development (1)"` to run the folder for the web application.
 
   Run `npm i` to install the dependencies.
 
