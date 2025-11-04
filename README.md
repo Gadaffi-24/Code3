@@ -13,11 +13,11 @@
 
 
 Screenshots:
-![alt text](<Desktop view.png>) 
-![alt text](<Desktop view (2).png>) 
-![alt text](<Desktop view (3).png>) 
-![alt text](<Desktop view (4).png>) 
-![alt text](<Desktop view (5).png>)  
-![alt text](<Mobile view-1.png>)
-![alt text](<Mobile view (2)-1.png>)
-![alt text](<Mobile view (3)-1.png>)
+![alt text](<Screenshots/Mobile view.png>)
+![alt text](<Screenshots/Mobile view-1.png>)
+![alt text](<Screenshots/Mobile view (2).png>)
+![alt text](<Screenshots/Mobile view (3).png>)
+![alt text](<Screenshots/Desktop view (2).png>)
+![alt text](<Screenshots/Desktop view (3).png>)
+![alt text](<Screenshots/Desktop view (4).png>)
+![alt text](<Screenshots/Desktop view (5).png>)
